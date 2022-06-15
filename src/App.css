@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app-header{
+    border-bottom: 1px solid gray;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-header-logo{
+    height: 40px;
+    width: auto;
+    margin: 0 10px;
+}
+
+.app-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.Noval-item,img{
+  width: 100%;
+}
